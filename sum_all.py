@@ -8,4 +8,3 @@ def sum_all(arr: np.ndarray) -> int:
     Returns:
         int: sum of all numbers
     """
-    return np.sum(arr)

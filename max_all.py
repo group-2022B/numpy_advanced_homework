@@ -8,4 +8,3 @@ def max_all(arr: np.ndarray) -> int:
     Returns:
         int: max of all numbers
     """
-    return np.max(arr)

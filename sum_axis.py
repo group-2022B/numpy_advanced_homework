@@ -8,4 +8,3 @@ def sum_axis_1(arr: np.ndarray) -> int:
     Returns:
         np.ndarray: sum of each row
     """
-    return np.sum(arr, axis=1)

@@ -8,4 +8,3 @@ def min_all(arr: np.ndarray) -> int:
     Returns:
         int: min of all numbers
     """
-    return np.min(arr)
