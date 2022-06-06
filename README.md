@@ -95,6 +95,25 @@ Output: 1
 
   dtpye = np.uint8
 
+  ## max_axis
+
+  Returns the max of all numbers in the array
+
+**Example 1:**
+
+```Python
+Input: [[  1  11]
+        [  4  65]
+        [  5  14]
+        [122   4]
+        [ 12   3]]
+Output: [11  65  14 122  12]
+```
+
+**Constraints:**
+
+  dtpye = np.uint8
+
 # Warning
 - don't copy other solutions or any solution
 - don't remove comments
