@@ -8,11 +8,3 @@ def sum_all(arr: np.ndarray) -> int:
     Returns:
         int: sum of all numbers
     """
-    s = 0
-    for rows in arr:
-        for row in rows:
-            s += row
-
-    return s
-
-print(sum_all(np.arange(20).reshape(4,5)))
